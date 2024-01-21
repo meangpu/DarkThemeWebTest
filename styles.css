@@ -10,6 +10,8 @@ section,
 footer {
   padding: 20px;
   margin: 20px;
+  border: 1px solid #333333;
+  border-radius: 10px;
 }
 
 nav,
@@ -34,12 +36,6 @@ nav a {
   font-weight: bold;
 }
 
-section {
-  border: 1px solid #333333;
-  /* background-color: #292929; */
-  border-radius: 10px; /* Adjust the value to control the roundness */
-}
-
 .footer {
   background-color: #333333;
   text-align: center;
@@ -48,7 +44,6 @@ section {
   width: 100%;
 }
 
-/* Updated CSS for the image grid */
 .image-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
