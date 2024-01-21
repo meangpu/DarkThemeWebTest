@@ -57,16 +57,18 @@ section {
 
 .grid-item {
   text-align: center;
+  perspective: 2000px;
 }
 
 .grid-item img {
   width: 100%;
   height: auto;
   border-radius: 8px;
-  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transform-style: preserve-3d;
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
 }
 
 .grid-item img:hover {
-  transform: scale(0.95);
+  transform: rotateY(10deg) rotateX(8deg) scale(1.02);
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
 }
